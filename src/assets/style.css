@@ -1,0 +1,57 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    background: #fff;
+    width: 80%;
+    
+    margin: auto;
+   
+}
+.header_container {
+    background: rgb(216, 216, 216) ;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: rgb(66, 127, 240);
+}
+
+.menu_button {
+   background-color: black;
+   color: blue;
+}
+.start_container {
+   
+    text-align: center;
+}
+.header_text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    text-align: center;
+}
+.inAndEx {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid rgb(228, 228, 228);
+    
+}
+.color_green {
+    color: green;
+}
+.color_red {
+    color: firebrick;
+}
+.field {
+  display: flex;
+  justify-content: space-evenly;
+    
+}
+.totalResult {
+    color: darkseagreen;
+}
